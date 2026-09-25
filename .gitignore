@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data & cache
+data/
+cache/
+
+# Model checkpoints & training outputs
+# *.pt
+# trained_*/
+# vae_run/
+evals_*/
+fid_*/
+fm_run*/
+gate_*/
+gen_output/
+metrics_out/
+probe_run*/
+refine_*/
+results*/
+sweep_*/
+tail_*/
+vel_traj_metric/
+vm_*/
+
+runs/
+inference_out/
+
+# Archived & scratch files
+_attic/
+
+# Local analysis scratch (not part of the published pipeline)
+local_analysis/
+*.png
+*.log
+*.txt
+!requirements.txt
+*.zip
+*.pdf
+
+# Environments & IDE
+.vscode/
+.idea/
+venv/
+env/
